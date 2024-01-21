@@ -48,3 +48,7 @@
 .input-group label {
     flex-basis: 28%;
 }
+
+.input-group input, .input-group textarea {
+    
+}
