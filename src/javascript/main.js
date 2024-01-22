@@ -31,7 +31,7 @@ function validatePhone() {
         return false;
     }
     if(phone.match(/^[0-9]{10}$/)) {
-        phoneError.innerHTML = 'Phone no is required';
+        phoneError.innerHTML = 'Only digits please';
         return false;
     }
     phoneError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
