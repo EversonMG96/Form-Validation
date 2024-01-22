@@ -18,3 +18,7 @@ function validateName() {
     nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
 }
+
+function validatePhone() {
+    var phone = document.getElementById('contact-phone').value;
+}
