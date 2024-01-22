@@ -5,5 +5,5 @@ var messageError = document.getElementById("message-error");
 var submitError = document.getElementById("submit-error");
 
 function validateName() {
-    
+    var name = document.getElementById("contact-name");
 }
