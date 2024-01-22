@@ -4,3 +4,6 @@ var emailError = document.getElementById("email-error");
 var messageError = document.getElementById("message-error");
 var submitError = document.getElementById("submit-error");
 
+function validateName() {
+    
+}
