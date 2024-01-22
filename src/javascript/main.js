@@ -10,4 +10,7 @@ function validateName() {
     if(name.length == 0) {
         nameError.innerHTML = "Name is required";
     }
+    if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*&/)) {
+        
+    }
 }
