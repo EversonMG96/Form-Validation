@@ -83,5 +83,9 @@ form button {
     right: 17px;
     font-size: 14px;
     color: red;
-    
+
+}
+
+#Submit-error {
+    color: red;
 }
