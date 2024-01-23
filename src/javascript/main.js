@@ -69,5 +69,8 @@ function validateMessage() {
 }
 
 function validateForm() {
-    
+    if (!validateName() || !validatePhone() || !validateEmail() || validateMessage()) {
+       submitError.innerHTML = 'Please fix error to submit';
+       return false;
+    }
 }
