@@ -53,3 +53,11 @@ function validateEmail() {
     emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
 }
+
+function validateMessage() {
+    var message = document.getElementById('contact-message').value;
+
+    if() {
+        
+    }
+}
