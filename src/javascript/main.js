@@ -39,5 +39,9 @@ function validatePhone() {
 }
 
 function validateEmail() {
-    
+    var email = document.getElementById('contact-email').value;
+
+    if(email.length == 0) {
+        emailError.innerHTML = 'Email is required';
+    }
 }
