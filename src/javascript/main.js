@@ -56,8 +56,11 @@ function validateEmail() {
 
 function validateMessage() {
     var message = document.getElementById('contact-message').value;
+    var required = 30;
+    var left = required - message.length;
 
-    if() {
-        
+    if(left > 0) {
+       messageError.innerHTML = left + 'more characters required';
+       return false; 
     }
 }
