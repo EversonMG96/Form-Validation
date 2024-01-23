@@ -37,3 +37,7 @@ function validatePhone() {
     phoneError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
 }
+
+function validateEmail() {
+    
+}
